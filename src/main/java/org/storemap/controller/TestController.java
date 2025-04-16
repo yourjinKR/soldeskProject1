@@ -20,4 +20,9 @@ public class TestController {
 		
 		log.info("controller page : " + result);
 	}
+
+	@GetMapping("/content/board/eventList")
+	public String eventList() {
+		return "/index";
+	}
 }
